@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weight Convertor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <section class="sec-1">
+        <h1 id="heading-text">Weight Convertor</h1>
+        <form class="form" action="/">
+          <input
+            type="text"
+            id="number1"
+            placeholder="Enter Value..."
+            onkeyup="weight1()"
+          /><br />
+          <select name="lists1" id="options" onchange="weight1()">
+            <option value="K">Kilogram</option>
+            <option value="T">Tone</option>
+            <option value="G">Gram</option>
+            <option value="Mi">Milligram</option>
+            <option value="M">Microgram</option>
+            <option value="I">Imperial ton</option>
+            <option value="U">Us ton</option>
+            <option value="S">Stone</option>
+            <option value="P">Pound</option>
+            <option value="O">Ounce</option></select
+          ><br />
+          <input
+            type="text"
+            id="number2"
+            placeholder="Enter Value..."
+            onkeyup="weight2()"
+          /><br />
+          <select name="lists2" id="options1" onchange="weight2()">
+            <option value="G">Gram</option>
+            <option value="T">Tone</option>
+            <option value="K">Kilogram</option>
+            <option value="Mi">Milligram</option>
+            <option value="M">Microgram</option>
+            <option value="I">Imperial ton</option>
+            <option value="U">Us ton</option>
+            <option value="S">Stone</option>
+            <option value="P">Pound</option>
+            <option value="O">Ounce</option></select
+          ><br />
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
